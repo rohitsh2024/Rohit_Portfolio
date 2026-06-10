@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rohit Sharma | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&family=Dancing+Script:wght@600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- LOADER -->
+  <div id="loader">
+    <div class="loader-inner">
+      <span class="loader-text">RS</span>
+      <div class="loader-bar"><div class="loader-fill"></div></div>
+    </div>
+  </div>
+
+  <!-- NAVBAR -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">Rohit<span>.</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-bg">
+      <div class="hero-grid"></div>
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-text">
+        <p class="hero-greeting">👋 Hello, I'm</p>
+        <h1 class="hero-name">Rohit Sharma</h1>
+        <div class="hero-role">
+          <span class="static-text">I'm a </span>
+          <span class="dynamic-text" id="dynamicText"></span>
+          <span class="cursor-blink">|</span>
+        </div>
+        <p class="hero-desc">
+          B.Tech CSE Student at ICFAI University · Passionate about building impactful tech solutions.
+          Currently interning at <span class="highlight">CountryEdu Pvt. Ltd.</span>
+        </p>
+        <div class="hero-btns">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-outline">Get In Touch</a>
+        </div>
+        <div class="hero-social">
+          <a href="https://github.com/rohitsh2024" class="social-icon" title="GitHub" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/rohit-sharma-b80711316" class="social-icon" title="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+          <a href="mailto:sharmarohitwork@email.com" class="social-icon" title="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="image-wrapper">
+          <div class="image-ring"></div>
+          <div class="image-ring ring-2"></div>
+          <img src="RohitSharma.jpeg" alt="Rohit Sharma" class="profile-photo" />
+          <div class="status-badge">
+            <span class="dot"></span> Open to Opportunities
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-down">
+      <div class="scroll-mouse"><div class="scroll-wheel"></div></div>
+      <span>Scroll Down</span>
+    </a>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about section">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Get To Know Me</p>
+        <h2 class="section-title">About <span>Me</span></h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-image-col">
+          <div class="about-image-card">
+            <div class="about-placeholder">
+              <img src="RohitSharma.jpeg" alt="Rohit Sharma" class="about-photo" />
+            </div>
+            <div class="about-stats">
+              <div class="stat-item"><h3>3rd</h3><p>Year</p></div>
+              <div class="stat-divider"></div>
+              <div class="stat-item"><h3>4+</h3><p>Projects</p></div>
+              <div class="stat-divider"></div>
+              <div class="stat-item"><h3>1</h3><p>Internship</p></div>
+            </div>
+          </div>
+        </div>
+        <div class="about-text-col">
+          <h3 class="about-subtitle">B.Tech CSE Student & Aspiring Developer</h3>
+          <p class="about-desc">
+            I'm <strong>Rohit Sharma</strong>, a 3rd year Computer Science Engineering student at 
+            <strong>ICFAI University</strong>. I'm passionate about solving real-world problems through technology 
+            whether it's building web applications, writing clean code, or participating in hackathons that 
+            challenge me to think beyond the classroom.
+          </p>
+          <p class="about-desc">
+            Currently gaining hands-on industry experience as an intern at <strong>CountryEdu Private Limited</strong>,
+            where I work on real projects that sharpen my technical and professional skills. 
+            I believe in continuous learning and pushing boundaries one commit at a time.
+          </p>
+          <div class="about-info-grid">
+            <div class="info-item">
+              <i class="fas fa-graduation-cap"></i>
+              <div><span class="info-label">Degree</span><span class="info-value">B.Tech – CSE</span></div>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-university"></i>
+              <div><span class="info-label">University</span><span class="info-value">ICFAI University</span></div>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-calendar-alt"></i>
+              <div><span class="info-label">Year</span><span class="info-value">3rd Year (2024–2028)</span></div>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-briefcase"></i>
+              <div><span class="info-label">Status</span><span class="info-value">Intern @ CountryEdu Pvt. Ltd.</span></div>
+            </div>
+          </div>
+          <a href="#" class="btn btn-primary" style="margin-top:1.5rem; display:inline-flex; align-items:center; gap:0.5rem;">
+            <i class="fas fa-download"></i> Download Resume
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="skills section">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">What I Know</p>
+        <h2 class="section-title">My <span>Skills</span></h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <div class="skill-cat-header"><i class="fas fa-code"></i><h3>Programming Languages</h3></div>
+          <div class="skill-items">
+            <div class="skill-item" data-level="85">
+              <div class="skill-info"><span>Python</span><span>85%</span></div>
+              <div class="skill-bar"><div class="skill-fill" style="--target: 85%"></div></div>
+            </div>
+            <div class="skill-item" data-level="80">
+              <div class="skill-info"><span>C</span><span>80%</span></div>
+              <div class="skill-bar"><div class="skill-fill" style="--target: 80%"></div></div>
+            </div>
+            <div class="skill-item" data-level="75">
+              <div class="skill-info"><span>C++</span><span>75%</span></div>
+              <div class="skill-bar"><div class="skill-fill" style="--target: 75%"></div></div>
+            </div>
+          </div>
+        </div>
+        <div class="skill-category">
+          <div class="skill-cat-header"><i class="fas fa-database"></i><h3>Database & Backend</h3></div>
+          <div class="skill-items">
+            <div class="skill-item" data-level="80">
+              <div class="skill-info"><span>SQL</span><span>80%</span></div>
+              <div class="skill-bar"><div class="skill-fill" style="--target: 80%"></div></div>
+            </div>
+            <div class="skill-item" data-level="75">
+              <div class="skill-info"><span>DBMS</span><span>75%</span></div>
+              <div class="skill-bar"><div class="skill-fill" style="--target: 75%"></div></div>
+            </div>
+          </div>
+        </div>
+        <div class="skill-category">
+          <div class="skill-cat-header"><i class="fas fa-globe"></i><h3>Web Development</h3></div>
+          <div class="skill-items">
+            <div class="skill-item" data-level="90">
+              <div class="skill-info"><span>HTML5</span><span>90%</span></div>
+              <div class="skill-bar"><div class="skill-fill" style="--target: 90%"></div></div>
+            </div>
+            <div class="skill-item" data-level="85">
+              <div class="skill-info"><span>CSS3</span><span>85%</span></div>
+              <div class="skill-bar"><div class="skill-fill" style="--target: 85%"></div></div>
+            </div>
+            <div class="skill-item" data-level="70">
+              <div class="skill-info"><span>JavaScript</span><span>70%</span></div>
+              <div class="skill-bar"><div class="skill-fill" style="--target: 70%"></div></div>
+            </div>
+          </div>
+        </div>
+        <div class="skill-category">
+          <div class="skill-cat-header"><i class="fas fa-tools"></i><h3>Tools & Others</h3></div>
+          <div class="skill-items">
+            <div class="skill-item" data-level="72">
+              <div class="skill-info"><span>Git & GitHub</span><span>72%</span></div>
+              <div class="skill-bar"><div class="skill-fill" style="--target: 72%"></div></div>
+            </div>
+            <div class="skill-item" data-level="90">
+              <div class="skill-info"><span>VS Code</span><span>90%</span></div>
+              <div class="skill-bar"><div class="skill-fill" style="--target: 90%"></div></div>
+            </div>
+            <div class="skill-item" data-level="80">
+              <div class="skill-info"><span>Problem Solving</span><span>80%</span></div>
+              <div class="skill-bar"><div class="skill-fill" style="--target: 80%"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tech-badges">
+        <div class="badge"><i class="fab fa-python"></i> Python</div>
+        <div class="badge"><i class="fab fa-html5"></i> HTML5</div>
+        <div class="badge"><i class="fab fa-css3-alt"></i> CSS3</div>
+        <div class="badge"><i class="fab fa-js-square"></i> JavaScript</div>
+        <div class="badge"><i class="fas fa-database"></i> SQL</div>
+        <div class="badge"><i class="fas fa-code"></i> C / C++</div>
+        <div class="badge"><i class="fab fa-git-alt"></i> Git</div>
+        <div class="badge"><i class="fab fa-github"></i> GitHub</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="projects section">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">What I've Built</p>
+        <h2 class="section-title">My <span>Projects</span></h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="projects-grid">
+
+        <div class="project-card featured">
+          <div class="project-img">
+            <div class="project-img-placeholder" style="background: linear-gradient(135deg, #10b981, #047857);">
+              <i class="fas fa-hospital-alt"></i>
+            </div>
+            <div class="project-overlay">
+              <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+              <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span class="tag">Python</span><span class="tag">IoT</span><span class="tag">DBMS</span>
+            </div>
+            <h3>Smart Medical Waste Management System</h3>
+            <p>An IoT-integrated system for categorizing, tracking, and managing medical waste in hospitals. Uses sensors to classify waste types and alerts staff for proper disposal — reducing health hazards and improving compliance with biomedical waste regulations.</p>
+            <div class="project-meta"><span><i class="fas fa-trophy"></i> Inter-College Innovation</span></div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-img">
+            <div class="project-img-placeholder" style="background: linear-gradient(135deg, #6366f1, #4338ca);">
+              <i class="fas fa-robot"></i>
+            </div>
+            <div class="project-overlay">
+              <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+              <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span class="tag">Python</span><span class="tag">NLP</span><span class="tag">AI</span>
+            </div>
+            <h3>AI Chatbot for Student Queries</h3>
+            <p>An intelligent chatbot to answer university-related queries for students. Handles FAQs, timetable info, and admission queries using NLP techniques, significantly reducing the load on administrative staff.</p>
+            <div class="project-meta"><span><i class="fas fa-code-branch"></i> Personal Project</span></div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-img">
+            <div class="project-img-placeholder" style="background: linear-gradient(135deg, #f59e0b, #d97706);">
+              <i class="fas fa-store"></i>
+            </div>
+            <div class="project-overlay">
+              <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+              <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span>
+            </div>
+            <h3>E-Commerce Product Landing Page</h3>
+            <p>A fully responsive, modern e-commerce landing page with product showcase, cart UI, smooth animations, and mobile-first design. Demonstrates clean and maintainable front-end development.</p>
+            <div class="project-meta"><span><i class="fas fa-code-branch"></i> Frontend Project</span></div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-img">
+            <div class="project-img-placeholder" style="background: linear-gradient(135deg, #ef4444, #dc2626);">
+              <i class="fas fa-database"></i>
+            </div>
+            <div class="project-overlay">
+              <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+              <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span class="tag">SQL</span><span class="tag">DBMS</span><span class="tag">Python</span>
+            </div>
+            <h3>Student Database Management System</h3>
+            <p>A complete DBMS for tracking student records, attendance, marks, and course enrollment. Features CRUD operations, search filters, and report generation using SQL and Python backend.</p>
+            <div class="project-meta"><span><i class="fas fa-code-branch"></i> Academic Project</span></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="experience section">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">My Journey</p>
+        <h2 class="section-title">Work <span>Experience</span></h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3>Software Development Intern</h3>
+                <p class="company"><i class="fas fa-building"></i> CountryEdu Private Limited</p>
+              </div>
+              <span class="timeline-date">2026 – Present</span>
+            </div>
+            <ul class="timeline-desc">
+              <li>Working on real-world web development projects using HTML, CSS, and JavaScript.</li>
+              <li>Collaborating with a cross-functional team to build and maintain features for the education platform.</li>
+              <li>Participating in code reviews and following industry-standard development practices.</li>
+              <li>Gaining hands-on experience with version control (Git/GitHub) in a professional team environment.</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>HTML/CSS</span><span>JavaScript</span><span>Git</span><span>Agile</span>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3>B.Tech Computer Science Engineering</h3>
+                <p class="company"><i class="fas fa-university"></i> ICFAI University</p>
+              </div>
+              <span class="timeline-date">2024 – 2028</span>
+            </div>
+            <ul class="timeline-desc">
+              <li>Studying core CS subjects: Data Structures, Algorithms, DBMS, OS, Computer Networks.</li>
+              <li>Participated in Smart India Hackathon (SIH) – College Level.</li>
+              <li>Participated in Inter-College Innovation Challenge with Medical Waste project.</li>
+              <li>Actively involved in coding clubs and technical events.</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>CSE</span><span>DSA</span><span>DBMS</span><span>Hackathons</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section id="certifications" class="certifications section">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Credentials</p>
+        <h2 class="section-title">My <span>Certifications</span></h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="cert-grid">
+        <div class="cert-card">
+          <div class="cert-icon" style="background: linear-gradient(135deg, #3b82f6, #1d4ed8);"><i class="fab fa-python"></i></div>
+          <div class="cert-info">
+            <h3>Python for Everybody</h3>
+            <p class="cert-issuer"><i class="fas fa-award"></i> Coursera – University of Michigan</p>
+            <p class="cert-date"><i class="fas fa-calendar"></i> 2024</p>
+          </div>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon" style="background: linear-gradient(135deg, #10b981, #065f46);"><i class="fas fa-database"></i></div>
+          <div class="cert-info">
+            <h3>SQL & Database Management</h3>
+            <p class="cert-issuer"><i class="fas fa-award"></i> HackerRank</p>
+            <p class="cert-date"><i class="fas fa-calendar"></i> 2025</p>
+          </div>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon" style="background: linear-gradient(135deg, #f59e0b, #92400e);"><i class="fas fa-code"></i></div>
+          <div class="cert-info">
+            <h3>C Programming – Problem Solving</h3>
+            <p class="cert-issuer"><i class="fas fa-award"></i> NPTEL – IIT</p>
+            <p class="cert-date"><i class="fas fa-calendar"></i> 2025</p>
+          </div>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon" style="background: linear-gradient(135deg, #8b5cf6, #5b21b6);"><i class="fas fa-globe"></i></div>
+          <div class="cert-info">
+            <h3>Responsive Web Design</h3>
+            <p class="cert-issuer"><i class="fas fa-award"></i> freeCodeCamp</p>
+            <p class="cert-date"><i class="fas fa-calendar"></i> 2026</p>
+          </div>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon" style="background: linear-gradient(135deg, #ef4444, #991b1b);"><i class="fab fa-git-alt"></i></div>
+          <div class="cert-info">
+            <h3>Git & GitHub Essentials</h3>
+            <p class="cert-issuer"><i class="fas fa-award"></i> LinkedIn Learning</p>
+            <p class="cert-date"><i class="fas fa-calendar"></i> 2026</p>
+          </div>
+        </div>
+        <div class="cert-card">
+          <div class="cert-icon" style="background: linear-gradient(135deg, #06b6d4, #0e7490);"><i class="fas fa-brain"></i></div>
+          <div class="cert-info">
+            <h3>Intro to AI & Machine Learning</h3>
+            <p class="cert-issuer"><i class="fas fa-award"></i> Google – Coursera</p>
+            <p class="cert-date"><i class="fas fa-calendar"></i> 2025</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section id="achievements" class="achievements section">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Milestones</p>
+        <h2 class="section-title">Achievements & <span>Events</span></h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="achievements-grid">
+        <div class="achievement-card">
+          <div class="achievement-icon"><i class="fas fa-lightbulb"></i></div>
+          <div class="achievement-content">
+            <span class="achievement-badge">Innovation</span>
+            <h3>Inter-College Innovation Challenge</h3>
+            <p>Presented a project on <strong>Smart Medical Waste Management</strong> — a sensor-based system for categorizing and tracking biomedical waste to ensure safe disposal and regulatory compliance. Competed against teams from multiple colleges.</p>
+            <div class="achievement-meta">
+              <span><i class="fas fa-calendar-alt"></i> 2024</span>
+              <span><i class="fas fa-map-marker-alt"></i> ICFAI University</span>
+            </div>
+          </div>
+        </div>
+        <div class="achievement-card">
+          <div class="achievement-icon sih"><i class="fas fa-rocket"></i></div>
+          <div class="achievement-content">
+            <span class="achievement-badge sih-badge">Hackathon</span>
+            <h3>Smart India Hackathon (SIH) – College Level</h3>
+            <p>Participated in <strong>Smart India Hackathon</strong> at the college level — one of India's largest hackathon platforms. Developed an innovative solution within a time-bound sprint, solving a real-world problem statement provided by government organizations.</p>
+            <div class="achievement-meta">
+              <span><i class="fas fa-calendar-alt"></i> 2024</span>
+              <span><i class="fas fa-users"></i> Team Event</span>
+            </div>
+          </div>
+        </div>
+        <div class="achievement-card">
+          <div class="achievement-icon intern"><i class="fas fa-briefcase"></i></div>
+          <div class="achievement-content">
+            <span class="achievement-badge intern-badge">Professional</span>
+            <h3>Industry Internship – CountryEdu Pvt. Ltd.</h3>
+            <p>Secured a competitive internship at <strong>CountryEdu Private Limited</strong> as a 3rd year student. Working on live projects alongside experienced developers in an agile team environment.</p>
+            <div class="achievement-meta">
+              <span><i class="fas fa-calendar-alt"></i> 2025 – Present</span>
+              <span><i class="fas fa-building"></i> CountryEdu Pvt. Ltd.</span>
+            </div>
+          </div>
+        </div>
+        <div class="achievement-card">
+          <div class="achievement-icon code"><i class="fas fa-laptop-code"></i></div>
+          <div class="achievement-content">
+            <span class="achievement-badge code-badge">Coding</span>
+            <h3>Competitive Programming</h3>
+            <p>Consistently solving problems on <strong>HackerRank</strong> and <strong>LeetCode</strong> to strengthen data structures and algorithmic thinking. Achieved HackerRank badges in Python and SQL.</p>
+            <div class="achievement-meta">
+              <span><i class="fas fa-star"></i> HackerRank Badges</span>
+              <span><i class="fas fa-code"></i> 100+ Problems Solved</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact section">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Reach Out</p>
+        <h2 class="section-title">Get In <span>Touch</span></h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>Let's Connect</h3>
+          <p>Whether you have a project idea, an internship opportunity, or just want to say hi my inbox is always open. I'll get back to you as soon as possible!</p>
+          <div class="contact-items">
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+              <div><span class="contact-label">Email</span><a href="mailto:sharmarohitwork@email.com">sharmarohitwork@email.com</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fab fa-github"></i></div>
+              <div><span class="contact-label">GitHub</span><a href="https://github.com/rohitsh2024" target="_blank" rel="noopener noreferrer">github.com/rohitsh2024</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fab fa-linkedin-in"></i></div>
+              <div><span class="contact-label">LinkedIn</span><a href="https://www.linkedin.com/in/rohit-sharma-b80711316" target="_blank" rel="noopener noreferrer">linkedin.com/in/rohit-sharma-b80711316</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div><span class="contact-label">Location</span><span>India</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form-wrapper">
+          <form class="contact-form" id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="fname">Your Name</label>
+                <input type="text" id="fname" placeholder="John Doe" required />
+              </div>
+              <div class="form-group">
+                <label for="femail">Your Email</label>
+                <input type="email" id="femail" placeholder="john@example.com" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="fsubject">Subject</label>
+              <input type="text" id="fsubject" placeholder="Project Collaboration" required />
+            </div>
+            <div class="form-group">
+              <label for="fmessage">Message</label>
+              <textarea id="fmessage" rows="5" placeholder="Tell me about your project or opportunity..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+            <p class="form-success" id="formSuccess">✅ Message sent! I'll get back to you soon.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <p class="footer-logo">Rohit<span>.</span></p>
+        <p class="footer-text">Designed & Built by <strong>Rohit Sharma</strong> · B.Tech CSE, ICFAI University</p>
+        <div class="footer-socials">
+          <a href="https://github.com/rohitsh2024" id="footerGithub" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/rohit-sharma-b80711316" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+          <a href="mailto:sharmarohitwork@email.com"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+      <p class="footer-copy">© 2025 Rohit Sharma. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <button id="backToTop" title="Back to Top"><i class="fas fa-arrow-up"></i></button>
+
+  <script src="script.js"></script>
+</body>
+</html>
